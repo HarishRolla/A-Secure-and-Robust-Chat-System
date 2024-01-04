@@ -1,6 +1,6 @@
 # A-Secure-and-Robust-Chat-System
 
-<a href="https://github.com/HarishRolla/Secure-Application-Development">Link to repository</a>
+<a href="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System">Link to repository</a>
 
 
 ## 1. Introduction
@@ -22,7 +22,7 @@ If the authentication fails, the waitlogin function displays an error message to
 
 If the authentication key check fails, the client displays an error message to the user and self-calls to ask the user for their username and password again
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig0.png " alt="Alt Text" style="width: 800px;">
 
 The above Figure shows Design for the user login to the Chatserver through the client
 
@@ -67,14 +67,14 @@ EXAMPLE-private:-harish:-hi harish this is rolla how are you?
 to get users connected to the network- type showclients
 type help to get a menu and type exit to logout
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig1.png " alt="Alt Text" style="width: 800px;">
 
 Fig 1.1:- a user is successfully authenticated and connected to the server with a user name and
 password
 
 If a user tries to log in with an invalid username and password, the application will not allow the user to log in to the server. This ensures that the application is secure and that only authenticated users are granted access to the chat server. This is shown in below figure 1.2
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig2.png " alt="Alt Text" style="width: 800px;">
 
 Fig 1.2: unauthenticated user trying to log into the chat server but failed to login
 
@@ -84,13 +84,13 @@ The chat server keeps track of all the clients that are currently connected and 
 
 This way, the chat server ensures that all the clients are aware of who is currently connected to the server, and they can start communicating with each other in real time.
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig3.png " alt="Alt Text" style="width: 800px;">
 
 Fig 1.3:- server accepts multiple clients, rollah1 and harish users are connected to the server
 
 The menu provides various options for the user to interact with the chat server. To send a message to all the users that are connected to the server, the user needs to use the keyword "public" followed by the symbol ":-" and then the message they want to send. The message format would be: "public:-[message]"
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig4.png " alt="Alt Text" style="width: 800px;">
 
 Fig 1.4:- user rollah1 sends a public message to all users connected to the server
 
@@ -109,7 +109,7 @@ As shown in Figure 1.4, "rollah1" can send a private message to "harish" using t
 Therefore, when "rollah1" sends the private message to "harish," both of "harish's" systems will receive the message, and it will be displayed as "Private message from rollah1" followed by the actual message.
 
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig5.png " alt="Alt Text" style="width: 800px;">
 
 Fig 1.5 User rollah1 sending a private message to harish
 
@@ -117,7 +117,7 @@ To obtain a list of all the users currently connected to the chat server, the us
 
 As shown in Figure 1.6, the output of the "showclients" command displays a list of all the connected users, along with their respective IP addresses and ports. This command is useful for users who want to know who is currently available on the chat server, and to whom they can send messages.
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig6.png " alt="Alt Text" style="width: 800px;">
 
 Fig 1.6: getting the users list by command showclients
 
@@ -127,7 +127,7 @@ However, if the user is logged into multiple systems, and uses the "exit" keywor
 
 As shown in Figure 1.7, when the user "harish" types the "exit" keyword on one system, they are logged out of the server from that system, but they remain logged in to the server from the other system. The chat server sends a message to the user indicating that they have been logged out of that system.
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig7.png " alt="Alt Text" style="width: 800px;">
 
 Fig 1.7: User Harish logged out from one of the systems but still logged in another system
 
@@ -137,7 +137,7 @@ This is because the chat server allows multiple connections from the same user, 
 
 In the example shown in Figure 1.8 below, "harish" was disconnected from the chat server on one system, but they were still able to receive and send messages from the server on the other system where they were still connected.
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig8.png " alt="Alt Text" style="width: 800px;">
 
 Fig 1.8:- harish in system 2 will get the messages even the harish logged out from system 1
 
@@ -147,13 +147,13 @@ This menu provides information on how to use the chat server, including how to s
 
 The "help" command is a useful reference tool for users who may not be familiar with all the available commands or need a quick reminder on how to use them.
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig9.png " alt="Alt Text" style="width: 600px;">
 
 Fig 1.9: help command gives menu at any time
 
 As shown in Figure 1.10 below, the chat server allows users to log in from multiple systems simultaneously. In this example, the user "rollah1" is logged in to the chat server from two different systems or windows.
 
-<img src=" " alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/A-Secure-and-Robust-Chat-System/blob/main/demoScreenshots/fig10.png " alt="Alt Text" style="width: 800px;">
 
 Fig 1.10: user rollah1 logged into many systems.
 
